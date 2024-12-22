@@ -17,6 +17,6 @@ func NewService() *HelloService {
 
 func (s *HelloService) Hello(ctx context.Context) *modelhello.HelloRes {
 	return &modelhello.HelloRes{
-		Data: "hello User! for information go to ",
+		Data: "hello User! for information go to https://github.com/Negat1v9/golang-api-start",
 	}
 }
