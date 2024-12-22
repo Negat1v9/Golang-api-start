@@ -2,11 +2,11 @@
 The project can be used by developers to quickly start a new rest api written in golang.
 ___
 ##### get the project
-```bach
+```bash
 git pull https://github.com/Negat1v9/golang-api-start
 ```
 ##### quick start on port **8088**
-```bach 
+```bash
 go run app.go
 ```
 ### application layers
@@ -18,3 +18,7 @@ go run app.go
 - web layer with server, all routers and handlers
 4. services
 - layer for working with layers for a database or external services
+### Simple request
+```bash
+curl http://localhost:8088/api/v1/hello/hello
+```
